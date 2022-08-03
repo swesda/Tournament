@@ -9,7 +9,6 @@ import java.util.Collection;
 public class Game {
     private Collection<Players> players = new ArrayList<>();
 
-    //конструкторы
     public Game() {
     }
 

@@ -1,11 +1,11 @@
 package ru.netology.game;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 import org.junit.jupiter.api.Test;
 import ru.netology.domain.NotRegisteredException;
 import ru.netology.domain.Players;
-import ru.netology.game.Game;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 class GameTest {
 
